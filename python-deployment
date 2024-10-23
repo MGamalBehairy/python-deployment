@@ -16,6 +16,6 @@ spec:
       - name: ecr-secret 
       containers:
       - name: python-app
-        image: 536697266753.dkr.ecr.us-east-1.amazonaws.com/my_ecr_repo:latest
+        image: 536697266753.dkr.ecr.us-east-1.amazonaws.com/my-ecr-repo:latest
         ports:
         - containerPort: 5000
